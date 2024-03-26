@@ -1,0 +1,36 @@
+.audio-player {
+	.audio-control {
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+		padding: 10px;
+		display: inline-block; // Ensures the button respects width and height
+
+		.audio-icon {
+			width: 50px; // Adjust size as needed
+			height: 50px; // Make height equal to width for a perfect circle
+			transition: transform 0.2s ease-in-out;
+			border-radius: 50%; // This makes the image circular
+			object-fit: cover; // Ensures the image covers the area without distorting its aspect ratio
+
+			&.rotating {
+				animation: rotateImage 2s linear infinite; // Removed 'infinite'
+				animation-play-state: running; // Default state
+			}
+
+			&.paused {
+				animation-play-state: paused; // Add this class when pausing
+			}
+		}
+	}
+}
+
+@keyframes rotateImage {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}

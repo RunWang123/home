@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
+import AudioPlayer from "./AudioPlayer.jsx";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -83,6 +84,9 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
         </Nav>
       </Navbar.Collapse>
+      <div className="ml-auto">
+        <AudioPlayer />
+      </div>
     </Navbar>
   );
 });

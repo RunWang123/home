@@ -9,7 +9,8 @@ const mainBody = {
   firstName: "Run",
   middleName: "",
   lastName: "Wang（王润）",
-  message: " Passionate about changing the world with technology. ",
+  message:
+        "As a huge fan of David Tao, I'm thrilled to share the experience of his music with you. You can begin enjoying his \"Soul Power 2003\" by clicking the music icon located at the top-right corner of the webpage. I hope you find his music as captivating as I do!",
   icons: [
     {
       image: "fa-github",
@@ -53,9 +54,8 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/rwang.png"),
   imageSize: 375,
-  message:
-    "My name is Run wang. I’m a graduate of 2023 from Carnegie Mellon University with a degree in Electrical and Computer Engineering. ",
-    resume: "https://docs.google.com/document/d/1EqNI4RHChqy5_rS2jXPH8RVw8uqOjNIg/edit?usp=sharing&ouid=116415741495555894102&rtpof=true&sd=true",
+  message: "My name is Run wang. I’m a graduate of 2023 from Carnegie Mellon University with a degree in Electrical and Computer Engineering.",
+  resume: "https://docs.google.com/document/d/1EqNI4RHChqy5_rS2jXPH8RVw8uqOjNIg/edit?usp=sharing&ouid=116415741495555894102&rtpof=true&sd=true",
 };
 
 // PROJECTS SECTION

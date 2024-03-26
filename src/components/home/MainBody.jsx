@@ -20,7 +20,7 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist>
+          <Typist avgTypingDelay={5}>
             <div className="lead typist">
               {message}
             </div>
