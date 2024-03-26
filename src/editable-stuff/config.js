@@ -8,7 +8,7 @@ const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Run",
   middleName: "",
-  lastName: "Wang",
+  lastName: "Wang（王润）",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
@@ -120,13 +120,26 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: 'Application Developer',// Here Add Company Name
-      companylogo: require('../assets/img/CPI.png'),
+      companyname: 'Computer Packages Inc.',
+      companylogo: require('../assets/img/cpi.jpg'),
       date: 'June 2023 – Present',
+    },    
+    {
+      role: 'Research Assistant at CerLab',// Here Add Company Name
+      companyname: 'Carnegie Mellon University',
+      companylogo: require('../assets/img/cmu.png'),
+      date: 'May 2022 – May 2023',
+    },    
+    {
+      role: 'Research Assistant at Cognitive and Immersive Science Lab',// Here Add Company Name
+      companyname: 'Rensselaer Polytechnic Institute',
+      companylogo: require('../assets/img/rpi.jpeg'),
+      date: 'Jan 2020 – Dec 2020',
     },
   ]
 }
